@@ -1,131 +1,143 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+ 
+# THE DREAM MODEL >> Project
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Project Purpose
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+### General Objective
+Develop a professional website for the modeling agency that effectively showcases models, previous work, and services offered, facilitating connections between potential clients and the agency.
 
-## Gitpod Reminders
+### Technologies Used
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+[**Flexbox**](Flexbox)
+- Flexbox makes it easy to create flexible and responsive layouts.
 
-`python3 -m http.server`
+[**HTML5**](https://www.w3schools.com/html/html_intro.asp)
+- Was used to structure the web page  
 
-A blue button should appear to click: _Make Public_,
+[**Google Fonts**](https://fonts.google.com/)
+- Google font was used for the font of the website.
 
-Another blue button should appear to click: _Open Browser_.
+[**Custom CSS**](https://www.w3schools.com/css/)
+- Was added to override default Bootstrap styles and match the client’s branding.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+[**Fontawesome**](https://fontawesome.com/kits)
+- Was added to add the icons in the page.
 
-A blue button should appear to click: _Make Public_,
+[**Bootstrap Framework**](https://getbootstrap.com/)
 
-Another blue button should appear to click: _Open Browser_.
+- The website utilizes the Bootstrap framework to ensure a responsive and modern design.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- Bootstrap CSS and JavaScript files were included in the project via CDN links
 
-To log into the Heroku toolbelt CLI:
+[**Custom CSS**](https://www.w3schools.com/css/)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- Was added to override default Bootstrap styles and match the client’s branding.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
 
-### Connecting your Mongo database
+### [User Story](https://github.com/users/Luis-Jones-Coder/projects/4)
+**1. Showcase Model Portfolio:** Provide a high-quality visual gallery that highlights models who have worked with the agency and previous projects.
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+**2. Facilitate Contact:** Include a contact form and key information sections (such as location and operating hours) so potential clients can easily get in touch with the agency.
 
-------
+**3. Describe Offered Services:** Clearly and concisely present the different modeling services available.
 
-## Release History
+**4. Promote New Opportunities:** Inform aspiring models on how they can join the agency and the benefits and requirements involved.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Target Audience
 
-**June 18, 2024,** Add Mongo back into template
+- **Potential Clients:** Individuals or companies looking to hire models for photo shoots, fashion shows, advertising campaigns, etc.
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+- **Aspiring Models:** Individuals interested in joining the modeling agency and developing their professional careers.
 
-**May 28 2024:** Fix Mongo and Links installs
-
-**April 26 2024:** Update node version to 16
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
+- **Collaborators and Media:** Professionals in the fashion and media industries interested in collaborating with the agency.
 ---
+### Descriptions and Content
+- Engaging descriptions of the agency's environment and types of modeling opportunities available were written and provided by the client.
 
-Happy coding!
+- Content was reviewed and edited for clarity, conciseness, and SEO optimization.
+- Descriptions were directly integrated into the website’s HTML.
+
+
+### Deployment
+**1. Code Review:** Ensured all code is clean, error-free, and well-documented.
+### Local Testing:
+**Issue Description: JOIN US** 
+The "JOIN US" button, located at the top-right of the page, presented a visual error during mouse hover in the Gallery section and the Form section. When hovering over the button:
+
+- The background color changed to white, but the text color did not adjust accordingly.
+
+- This caused the button's text to become invisible, making it unreadable and disrupting the user experience.
+
+**Root Cause Analysis:**
+Both the Gallery section and the Form section had a CSS class named text-white.
+
+This class forced the text color to turn white on mouse hover, regardless of the button's background color.
+
+As a result, the content of the button became indistinguishable.
+**Resolution:**
+The issue was resolved by removing the text-white class from the sections that caused the conflict.
+
+**Before Fix:**
+Hovering over the "JOIN US" button changed its background to white while keeping the text color white, rendering the text invisible.
+
+The issue was consistently observed in both the Gallery and Form sections.
+
+**After Fix:**
+After removing the text-white class, the button text color now remains visible during hover.
+
+The button functions correctly, maintaining good contrast between the background and text.
+
+**Test Report: Navigation Bug on Small Screens**
+
+**Issue Description:**
+The navigation bar was not functioning properly on small screens. The issue was caused by the hero image, which affected the usability of the navigation bar by making it difficult to interact with on smaller devices.
+
+**Root Cause Analysis:**
+The hero image did not adapt well to smaller screen sizes, causing layout conflicts and obstructing the navigation bar.
+
+This made the navigation experience cumbersome and non-responsive.
+
+**Resolution:**
+The problem was resolved by adding the col-12 class to the hero image section.
+
+This ensured that the hero image properly spans the width of the screen on smaller devices, improving the layout and usability.
+
+**Testing Results:**
+
+**Before Fix:**
+Navigation bar was obstructed or unresponsive on small screens.
+
+User interactions with the navigation bar were inconsistent and frustrating.
+
+**After Fix:**
+Navigation bar is now fully functional on small screens.
+
+The layout adjusts seamlessly, and the hero image no longer interferes with navigation.
+
+Conclusion:
+The issue with the navigation bar has been successfully resolved. Adding the col-12 class ensures a responsive and user-friendly interface across devices, significantly improving the overall user experience.
+
+**HTML validator WRC**
+I have used the recommended html [validator WRC](assets\images\index-solution.png) to validate all of my html files.
+[validator WRC](assets\images\formSucces.png) Form.html
+[validator WRC](assets\images\galleriSuccess.png) Gallery.html
+[validator WRC](assets\images\Success-corrected.png) Success.html
+
+
+**CSS validator WRC**
+I have used the recommended html [validator WRC](https://validator.w3.org/#validate_by_input) to validate all of my html files.
+
+
+
+Functional Testing: Tested all critical functionalities (forms,links, responsive fuctionality) to confirm they work as expected.
+
+Monitoring: Set up monitoring tools to ensure the site is available and functioning correctly at all times (e.g., Google Analytics, UptimeRobot).
+
+
+## Acknowledgements
+
+- I would like to thank my Code Institute mentor, Dickv for their support throughout the development of this project.
+
+- I would like to thank the Code Institute tutor team for their assistance with troubleshooting and debugging some project issues.
